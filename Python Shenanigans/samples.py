@@ -1,4 +1,4 @@
-# thank you chatgpt for these wonderful sample python problems
+# thank you for these wonderful sample python problems
 print("\nHello World!\n")
 
 # Ask the user for their name and age, then print:
@@ -66,6 +66,7 @@ def encrypt(text, shift):
             # find new index in alphabet
             # replace char in text wiht new letter
         
+
 
 
 
