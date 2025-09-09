@@ -1,4 +1,4 @@
-# thank you for these wonderful sample python problems
+# thank you chatgpt for these wonderful sample python problems
 print("\nHello World!\n")
 
 # Ask the user for their name and age, then print:
@@ -57,16 +57,20 @@ def listReverser(lst):
         count += 1
     print(lst)
 
+# caesar cipher
 def encrypt(text, shift):
+    cipher = ""
     alphabet = "abcdefghijklmnopqrstuvwxyz"
-    # for each char in text
-        # for each letter in alphabet
-            # get match and index of letter in alphabet
-            # add shift to index
-            # find new index in alphabet
-            # replace char in text wiht new letter
-        
+    for char in text:
+        count = 0
+        for letter in alphabet:
+            if char == letter:
+                newPos = count + shift
+                cipher += alphabet[newPos]
+            else:
+                count += 1
+    text = cipher
+    print(text)
 
-
-
+encrypt("cat", 3)
 
